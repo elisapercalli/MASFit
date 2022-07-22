@@ -26,7 +26,7 @@ Scan?	1
 Fix_M21 0
 Fix_M3l 0
 Fix_Theta13	0
-Fix_theta12	0
+Fix_Theta12	0
 Fix_N	1
 Fix_a	0
 Fix_b	0
