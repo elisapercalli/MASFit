@@ -5,11 +5,11 @@ MASFit is a code intended to simulate the antineutrino spectrum that JUNO will r
 The code will produce a simulated spectrum and fit it with both normal and inverted models, computing the difference between the two CHI squared.
 
 You can run the code "MASFit_1.py" with Python giving as input the file "input_MASFit_1.txt", "inputFlux.txt" and "bkg_geo_nu.txt".
-Command line example: python3 MASFit_0.py input_MASFit_0.txt inputFlux.txt
+Command line example: python3 MASFit_1.py input_MASFit_1.txt inputFlux.txt bkg_geo_nu.txt
 The file "inputFlux.txt" contains the un-obscillated flux of anti-neutrinos from reactor. It has to have the same number of elements of the Nbin in the main code (you can set it from the input file).
-The file "MASFit_func.py" is called in the main code and contains some of the funtions used.
-The code will produce two different outputs: if you use an Asimov data-set (Fluctuations=0) the output will be a plot of the simulated data with the two fits (called "MASFit_plot.png")
-and a file with all the free parameters of the fit and their reconsructed values (called "MASFit_parameters.txt").
+The file "bkg_geo_nu.txt" contains the energy spectrum of the geo neutrinos. It ha to have the same number of elements f the Nbin in the main code (you can set it from the input file), and the same energies.
+The file "MASFit_func_1.py" is called in the main code and contains some of the funtions used.
+The code will produce two different outputs: if you use an Asimov data-set (Fluctuations=0) the output will be a plot of the simulated data with the two fits (called "MASFit_plot.png") and a file with all the free parameters of the fit and their reconsructed values (called "MASFit_parameters.txt").
 If the option Fluctuations is True (1) it will produce an istogram with the distribution of the Delta Chi Squared, doing M fits.
 
 This is an explanaion of the input file, in which you can control everything of the simulation (names and values as to be separated form "tab"):
