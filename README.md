@@ -1,8 +1,9 @@
 # MASFit
 MASFit (Milano Antineutrino Spectrum Fitter)
 
-MASFit is a code intended to simulate the antineutrino spectrum that JUNO will receive and evaluate the sensitivity of the experiment with a CHI squared test. 
-The code will produce a simulated spectrum and fit it with both normal and inverted models, computing the difference between the two CHI squared.
+MASFit is a code intended to simulate the antineutrino spectrum that JUNO will receive and evaluate the sensitivity of the experiment with a CHI squared test. The code will produce a simulated spectrum and fit it with both normal and inverted models, computing the difference between the two CHI squared.
+
+In this README is explained how to run the code and how to use the input file. If you want further explanation on how the code works read the file "INFO.pdf".
 
 You can run the code "MASFit_1.py" with Python giving as input the file "input_MASFit_1.txt", "inputFlux.txt" and "bkg_geo_nu.txt".
 Command line example: python3 MASFit_1.py input_MASFit_1.txt inputFlux.txt bkg_geo_nu.txt
