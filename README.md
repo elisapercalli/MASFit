@@ -1,4 +1,4 @@
-# MASFit
+# MASFit1
 MASFit (Milano Antineutrino Spectrum Fitter)
 
 MASFit is a code intended to simulate the antineutrino spectrum that JUNO will receive and evaluate the sensitivity of the experiment with a CHI squared test. The code will produce a simulated spectrum and fit it with both normal and inverted models, computing the difference between the two CHI squared.
